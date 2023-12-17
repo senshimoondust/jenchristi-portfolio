@@ -1,0 +1,74 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+header {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+  background-color: #e4dbef;
+  border: 5px solid #0b070c;
+  border-radius: 10px;
+  padding: 30px 15px;
+  width: 50%;
+}
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/048/702/original/pexels-designecologist-1779487_%281%29.jpg?1665839696");
+}
+
+main {
+  display: block;
+  margin: 0 auto;
+  background-color: #c36fe2;
+  padding: 20px 15px;
+  text-align: center;
+  border: 5px solid #241c23;
+  border-radius: 15px;
+  width: 70%;
+  font-weight: bold;
+  color: #0b070c;
+}
+
+footer {
+  display: block;
+  margin: 0 auto;
+  font-family: fantasy;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #e4dbef;
+  background-color: #0b070c;
+  border: 2px solid #e4dbef;
+  border-radius: 10px;
+  width: 15%;
+  padding: 10px;
+}
+
+.navigation {
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.education {
+  display: block;
+  margin: 30px;
+  background-color: #e4dbef;
+  color: #241c23;
+  border: 1px solid #241c23;
+  border-radius: 5px;
+  width: 50%;
+  padding: 20px;
+}
+
+.experience {
+  display: block;
+  margin: 0 auto;
+  background-color: #e4dbef;
+  color: #241c23;
+  border: 2px solid #241c23;
+  border-radius: 5px;
+  width: 50%;
+  padding: 20px;
+}
